@@ -6,7 +6,7 @@ interface MainPageProps { }
 
 const MainPage: React.FC<MainPageProps> = ({ }) => {
   return (
-    <section className="bg-[#eeeeee] h-screen grid grid-cols-12 relative">
+    <section className="bg-[#eeeeee] h-screen w-full flex md:gap-x-6 lg:grid lg:grid-cols-12 relative">
       <Sidebar />
       <Content />
     </section>

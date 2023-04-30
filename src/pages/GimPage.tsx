@@ -6,7 +6,7 @@ interface GimpPageProps { }
 
 const GimpPage: React.FC<GimpPageProps> = ({ }) => {
   return (
-    <div className="bg-[#eeeeee] h-screen grid grid-cols-12">
+    <div className="bg-[#eeeeee] lg:h-screen flex lg:grid grid-cols-12">
       <Sidebar />
       <Content />
     </div>
